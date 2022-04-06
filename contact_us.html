@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <header>
-    <img src="images/vicious-cycles-logo.png" alt="vicious cycles logo">
+    <img src="images/vicious-cycles-logo.png" alt="vicious cycles logo" id="headerimage">
 
 
     <nav>
@@ -21,6 +21,7 @@
                 </ul>
             </li>
             <li><a href="repairs.html">Repairs</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
             <li><a href="our_story.html">Our Story</a></li>
             <li><a href="contact_us.html">Contact us</a></li>
         </ul>
@@ -34,8 +35,38 @@
     <section>
         <h1>Contact Us</h1>
     </section>
-    <article>
-       <form>
+    <div class="contain2">
+        <img src="images/Comp_User.jpg" alt="Guy Using PC To Call Our Flawless Company" id="Complainer">
+        
+    <div class="content3">
+        <h3>
+            At Vicious Cycles, We know that our costumers are always right.*  
+        </h3>
+<p>
+    That is why we have this contact us sheet to provide part orders, feedback**, or questions about your bike
+</p>
+<h6>
+    * Unless nessicary of which we are always right
+</h6>
+<h6>
+    ** Not responsible for complaint in trash
+</h6>
+</div>
+</div>
+
+    
+<div class="contain3">
+<h3>
+    Enter your details
+</h3>
+<div class="content4">
+    <form>
+        <input type="checkbox" id="firsttime" name="firsttime" value="firsttime">
+        <label for="firsttime"> This is my first time at Vicious Cycles</label>
+        <br>
+        <input type="checkbox" id="gift" name="gift" value="gift">
+        <label for="gift"> This is a gift for someone and I got it through here</label>
+        <br>
         <label for="fullname">Enter your Full Name:</label>
         <br>
         <input type="text">
@@ -48,12 +79,38 @@
         <br>
         <input type="text">
         <br>
-        <label for="Subscribe">By Checking this Checkbox, I agree to recieve near hourly emails and SMS messgaes on the latest products, information of products, the owner's personal life and many more :</label>
+        <label for="WhatRUTalkin">Select What are you inquring about:</label>
+        <br>
+        
+<select id="inquiry" name="inquiry">
+  <option value="part">I would like to order a part</option>
+  <option value="full">I would like to order a whole bike</option>
+  <option value="question">I have a question</option>
+  <option value="support">I need help with my product and/or its status</option>
+</select>
+<br>
+<textarea name="inquirycomplaint" rows="10" cols="30">
+    type in me
+    </textarea>
+    <br>
+        <label for="Subscribe">By selecting the button provided below, I agree to recieve near hourly emails and SMS messgaes on the latest products, information of products, the owner's personal life and many more </label>
         <br>
         <input type="radio" id="Yes" name="BS" value="Yes">  <label for="Yeds"> YES </label>
         <br>
+        <input type="radio" id="No" name="BS" value="No">  <label for="No"> NO </label>
+        <br>
+       
+        <input type="checkbox" id="senddig" name="senddig" value="senddig">
+        <label for="senddig"> Please use my info for training and marketing reasons</label>
+        <br>
         <input type="submit">
+        <br>
+        <label for="returnhome"> <a href="vicious_cycles.html">I would like to return to the homepage</a></label>
        </form>
+       </div>
+    </div>
+    <article>
+       
             
     </article>
 
@@ -63,6 +120,23 @@
 
    
 
-
+    <footer class="footer-parent">
+        <div class="footer-container">
+            <div class="info">
+               
+                123 Main Street Raleigh NC 27000<br>
+                919-555-3226<br>
+                viciouscycles@gmail.com
+            </div>
+            <div class="container2"> 
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/f_logo_RGB-White_58.png" alt="facebook logo" width=50px height=50px> 
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/2021 Twitter logo - white.png" alt="twitter logo" width=50px height=50px>
+                </a>  
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
