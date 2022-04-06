@@ -86,6 +86,62 @@ border:1px black solid;
     flex-grow: 0;
     flex-basis: 50vw;
 }
+.contain{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin: 10vw;
+    border:1px black solid;
+    }
+    .content2{
+        flex-grow: 0;
+        flex-basis: 50vw;
+        
+    }
+    .contain2{
+ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: darkgray;
+        margin: 10vw;
+        border:1px black solid;
+        }
+        .contain3{
+ 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: darkgray;
+            margin: 10vw;
+            border:1px black solid;
+            }
+        .content3{
+            flex-grow: 0;
+            flex-basis: 50vw;
+            
+        }
+        .content4{
+            flex-grow: 0;
+            flex-basis: 50vw;
+            
+        }
+        .contain4{
+ 
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: darkgray;
+            margin: 10vw;
+            border:1px black solid;
+            }
+            .content5{
+                flex-grow: 0;
+                flex-basis: 50vw;
+               
+            }
 #pic2{
     width:250px;
      height:500px;
@@ -97,4 +153,92 @@ border:1px black solid;
 #pic3{
     width:250px; 
     height:250px;
+}
+#headerimage{
+    display: none; 
+}
+@media screen and (min-width: 624px) {
+    #headerimage{
+        display: block; 
+    }
+
+}
+#ReallyGoodDude{
+    width: 200px;
+    height: 300px;
+}
+form{
+    margin: 2vw;
+    padding: 2vw;
+}
+h6{
+    font-size: 4pt;
+}
+#Complainer{
+    width: 250px;
+    height: 250px;
+}
+h3{
+    text-align: center;
+    margin-left: 5vw;
+  margin-right: 5vw;
+}
+h6{
+    text-align: left;
+    margin-left: 5vw;
+  margin-right: 5vw;
+}
+.footer-container {
+    background-color: #6D9F71;
+    height: 150px;
+    display: flex;
+}
+
+
+.container2 {
+    margin-top: 3vw;
+    
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.info{
+    margin-top: 3vw;
+    margin-left: 1vw;
+    flex-grow: 0;
+            flex-basis: 50vw
+}
+#bikerepair{
+    width: 300px;
+    height: 250px;
+}
+article{
+    margin-left: 3vw;
+
+}
+h2{
+    text-align: center;
+}
+.info  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.welcome-message {
+  position: relative;
+  display: flex;  
+}
+
+.text {
+    position: fixed;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(250, 235, 215, 0.493);
+
 }
